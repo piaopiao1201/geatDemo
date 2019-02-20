@@ -1,0 +1,18 @@
+{
+  "name": "tecentSpider",
+  "version": "",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "supervisor server.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "consolidate": "^0.15.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "iconv-lite": "^0.4.23",
+    "jquery": "^3.3.1",
+    "nightmare": "^3.0.1"
+  }
+}
